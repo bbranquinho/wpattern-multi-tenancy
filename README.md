@@ -2,6 +2,8 @@
 
 Projeto que demonstra um exemplo de aplicação REST usando Multi-Tenancy. Para deteminar qual tenancy usar é preciso apenas passar no header da requisição qual é o tenant.
 
+**Observação:** foi utilizada uma versão Milestone do Spring Boot, já que estava testando essa nova versão do Spring Boot. Para utilizar uma versão anterior que seja estável "não" devem ser necessárias alterações no projeto.
+
 ## 1. Requisitos
 
 Para executar o projeto é necessária a instalação das seguintes ferramentas:
