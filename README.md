@@ -2,7 +2,7 @@
 
 Projeto que demonstra um exemplo de aplicação REST usando Multi-Tenancy. Para deteminar qual tenancy usar é preciso apenas passar no header da requisição qual é o tenant.
 
-**Observação:** foi utilizada uma versão Milestone do Spring Boot, já que estava testando essa nova versão do Spring Boot. Para utilizar uma versão anterior que seja estável "não" devem ser necessárias alterações no projeto.
+**Observação:** foi utilizada uma versão Milestone do Spring Boot, já que estava testando essa nova versão do Spring Boot. Para utilizar uma versão anterior que seja estável algumas alterações devem ser necessárias. Outro detalhe, estou utilizando a libs spring-tenant (https://github.com/ZupIT/spring-tenant) da empresa Zup, como não tenho ela neste momento em um repositório foi necessário fazer a referência direta ao jar.
 
 ## 1. Requisitos
 
