@@ -17,7 +17,7 @@ Apesar de não ser necessário para rodar o projeto, é indicado o uso da IDE In
 
 ## 2. Configuração do Projeto
 
-Se for utilizado o Docker Compose, não é necessária realizar nenhuma configuração. Se optar por não usar o Docker Compose é preciso que tenha um PostgreSQL instalado e a seguinte configuração é preciso que seja feita. Crie no PostgreSQL um banco de dados com o nome **wpattern_multi_tenancy**, usuário **user** e senha **password**. Posteriormente, execute o script **./scripts/database.sql** no banco **wpattern_multi_tenancy**. Este script realiza a criação dos esquemas e tabelas.
+Se for utilizado o Docker Compose, não é necessária realizar nenhuma configuração, lembrando que o Docker Compose é responsável por executar a instância do PostgreSQL. Se optar por não usar o Docker Compose é preciso que tenha um PostgreSQL instalado e a seguinte configuração é preciso que seja feita. Crie no PostgreSQL um banco de dados com o nome **wpattern_multi_tenancy**, usuário **user** e senha **password**. Posteriormente, execute o script **./scripts/database.sql** no banco **wpattern_multi_tenancy**. Este script realiza a criação dos esquemas e tabelas.
 
 ## 3. Executando o Projeto
 
